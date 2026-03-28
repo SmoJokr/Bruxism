@@ -16,6 +16,8 @@ RUN pip install --no-cache-dir torch==1.13.1 torchvision==0.14.1
 
 RUN pip install --no-cache-dir numpy==1.23.5 scikit-learn==1.2.1
 
+RUN pip install --no-cache-dir timm
+
 COPY . .
 
 ENV PYTHONUNBUFFERED=1
